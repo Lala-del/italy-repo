@@ -2205,3 +2205,36 @@ text-align: start !important;
       height: auto!important;
   }
 }
+
+
+.message {
+  padding: 100px 0px;
+}
+
+.sent-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px 50px 0px;
+}
+
+.sent-message img{
+  height: 30vh;
+}
+
+.message-inner p{
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 170%;
+  color: #9A9A9A;
+}
+
+.univerTables .pagination-news{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 20px auto;
+}
