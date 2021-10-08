@@ -27,6 +27,20 @@
         },
         pagination: '.swiper-pagination',
        paginationClickable: true,
+       breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
     });
 
 
@@ -67,11 +81,11 @@
     zoom: true,
     breakpoints: {
       640: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 20,
       },
       768: {
-        slidesPerView: 4,
+        slidesPerView: 1,
         spaceBetween: 40,
       },
       1024: {

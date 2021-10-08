@@ -1,0 +1,240 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .banner{
+        padding-top: 70px;
+    }
+    .banner-title p {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        color: #149aa3;
+        letter-spacing: 1px;
+    }
+    .banner-title h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 86px;
+        color: #1B2D35;
+    }
+    .arrow-section{
+        display: none;
+    }
+    .arrow img{
+        display: none;
+    }
+    .nav-lg{
+        display: none;
+    }
+    .nav-sm .h-lang .h-lang-link > i {
+        font-size: 19px;
+        position: relative;
+        top: -22px;
+        left: 32px;
+        pointer-events: none;
+    }
+    .banner-img{
+        display: none;
+    }
+    .individual{
+        display: none;
+    }
+    .qual{
+        display: none;
+    }
+    .count-row{
+        display: none;
+    }
+    .sections{
+        margin: 0;
+    }
+    .part-img{
+        display: none;
+    }
+    .part-text p {
+        font-size: 12px;
+    }
+    .part-inner{
+        margin-top: 6px;
+    }
+    .section-inner {
+        padding: 10px;
+    }
+    .section-left{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .left-text {
+        position: relative;
+        top: 84px;
+        padding-left: 46px;
+        z-index: 9;
+        padding-right: 0px;
+    }
+    .left-text p {
+        line-height: 25px;
+        color: white;
+        font-size: 14px;
+    }
+    .sliders h1 {
+        font-size: 24px
+    }
+    .service {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 26px 18px 18px 72px;
+        transition: all 0.3s;
+        margin-bottom: 23px;
+    }
+    .courses {
+        padding: 0px 0px;
+    }
+    .right-course {
+        margin-top: 40px;
+    }
+    .call {
+        display: none;
+    }
+    .arrow-course{
+        display: none;
+    }
+    .news{
+        padding-top: 206px;
+    }
+    .news a {
+        margin-top: 30px;
+        display: block;
+    }
+    .banner-inner{
+        padding-top: 10px;
+    }
+    .sections{
+        padding-top: 70px;
+    }
+    .swiper-container.two {
+        height: 512px;
+        padding: 0 0 129px 0;
+    }
+    .apply{
+        margin-bottom: 180px;
+    }
+    .text-side{
+        margin-top: 20px;
+    }
+    .tables .table {
+        width: 80%;
+        margin-top: 20px;
+    }
+    .footer-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        padding: 20px 0px;
+    }
+    .town .body p {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 34px;
+        color: #1B2D35;
+    }
+    .town .body {
+        padding-top: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .town .body button {
+        margin-top: 48px;
+        width: 227px;
+        height: 56px;
+        background-color: #149AA3;
+        border-radius: 10px;
+        /* font-weight: 500; */
+        font-size: 15px;
+        line-height: 34px;
+        color: #EDEDED;
+    }
+    .navi{
+        display: flex;
+    }
+    .nav-tabs .nav-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 28px;
+        color: #1B2D35;
+    }
+    .tab-icon{
+        display: none;
+    }
+    .univerTable .right{
+        display: none;
+    }
+    .about-us{
+        height: auto;
+    }
+
+    .about{
+        height: auto;
+    }
+
+    .tab-text-s{
+        display: none;
+    }
+    .service-tab .service-title {
+        padding-left: 0;
+    }
+    .services .nav-tabs .nav-item {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    
+    .services .nav-link {
+        height: 73px;
+    }    
+    .pedu {
+        padding-top: 25px !important;
+        padding-bottom: 44px !important;
+    }
+    .news-bottom{
+        padding: 0px 0px 50px 0px!important;
+    }
+    .news-header p {
+        padding-bottom: 0px;
+    }
+    .service-tab .service-title p {
+        font-size: 14px;
+        color: white;
+    }
+    .nav-link.active .service-tab::before {
+        display: none;
+    }
+    .services .navi{
+        display: block;
+    }
+    .services.nav {
+        display: block;
+    }
+    
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .nav-sm{
+        display: none;
+    }
+}

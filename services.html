@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
 
         <title>Apply Italy</title>
     </head>
@@ -96,11 +97,10 @@
                          <div class="card">
                              <img src="assets/img/Group (1).png"  class="tab-img-s"alt="">
                            <div class="card-header">
-                               <ul class="nav nav-tabs" role="tablist">
-                                   <div class="row">
-                                       <div class="col-lg-3">
+                               <ul class="nav navi nav-tabs" role="tablist" id="myTab">
+                                   
                                         <li class="nav-item">
-                                            <a class="nav-link active" data-toggle="tab" href="#originofname" role="tab">
+                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
                                              <div class="service-tab">
                                                  <div class="service-title">
                                                      <p>Vip admission</p>
@@ -111,10 +111,9 @@
                                             </p>
                                             </a>
                                         </li>
-                                       </div>
-                                       <div class="col-lg-3">
+                                       
                                         <li class="nav-item">
-                                            <a class="nav-link " data-toggle="tab" href="#capital" role="tab">
+                                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
                                                 <div class="service-tab">
                                                     <div class="service-title">
                                                         <p>Private Universities</p>
@@ -125,10 +124,9 @@
                                                </p>
                                             </a>
                                         </li>
-                                       </div>
-                                       <div class="col-lg-3">
+                                      
                                         <li class="nav-item">
-                                            <a class="nav-link " data-toggle="tab"  href="#nationalcurrency" role="tab">
+                                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
                                                 <div class="service-tab">
                                                     <div class="service-title">
                                                         <p>Prices</p>
@@ -139,10 +137,9 @@
                                                </p>
                                             </a>
                                         </li>
-                                       </div>
-                                       <div class="col-lg-3">
+                                     
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#language" role="tab">
+                                            <a class="nav-link" id="lang-tab" data-toggle="tab" href="#lang" role="tab" aria-controls="clang" aria-selected="false">
                                                 <div class="service-tab">
                                                     <div class="service-title">
                                                         <p>Scholarships</p>
@@ -153,14 +150,13 @@
                                                </p>
                                             </a>
                                         </li>
-                                       </div>
-                                   </div>
+                                       
                                </ul>
                            </div>
                            <div class="card-body">
                            <!-- Tab panes -->
-                               <div class="tab-content text-center">
-                                   <div class="tab-pane active tab-inners" id="originofname" role="tabpanel">
+                               <div class="tab-content text-center" id="myTabContent">
+                                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                      <div class="container">
                                          <div class="row">
                                              <div class="col-12">
@@ -183,7 +179,7 @@
                                          </div>
                                      </div>
                                    </div>
-                                   <div class="tab-pane tab-inners" id="capital" role="tabpanel">
+                                   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                      <div class="container">
                                          <div class="row">
                                             <div class="col-12">
@@ -206,7 +202,7 @@
                                          </div>
                                      </div>
                                    </div>
-                                    <div class="tab-pane  tab-inners" id="nationalcurrency" role="tabpanel">
+                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab" >
                                      <div class="container">
                                          <div class="row">
                                             <div class="col-12">
@@ -229,7 +225,7 @@
                                          </div>
                                      </div>
                                    </div>
-                                   <div class="tab-pane  tab-inners" id="language" role="tabpanel">
+                                   <div class="tab-pane fade" id="lang" role="tabpanel" aria-labelledby="lang-tab >
                                      <div class="container">
                                          <div class="row">
                                             <div class="col-12">
@@ -257,6 +253,9 @@
                        </div>
                     </div>
                 </div>
+
+                
+
                 <a href="" class="tabs-link">
                     Application form
                     <i class="fas fa-chevron-right"></i>
